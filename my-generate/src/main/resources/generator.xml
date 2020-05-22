@@ -4,7 +4,7 @@
     <!-- 连接mysql驱动包所在位置 -->
     <classPathEntry
 
-            location="F:\Java_all\maven\apache-maven-3.6.0\repo\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar" />
+            location="D:\Java_all\apache-maven-3.6.3\repo\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar" />
     <context id="db2tables" targetRuntime="MyBatis3">
         <commentGenerator>
             <!--是否去除自动生成的注释 true是,false否-->
@@ -12,7 +12,7 @@
         </commentGenerator>
         <!-- 数据库连接信息，驱动类、连接地址、用户名、密码 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/finance" userId="root"
+                        connectionURL="jdbc:mysql://localhost:3306/test" userId="root"
                         password="961223">
         </jdbcConnection>
         <!--<jdbcConnection driverClass="oracle.jdbc.OracleDriver"-->
