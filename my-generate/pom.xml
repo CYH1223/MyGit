@@ -10,6 +10,7 @@
 
     <packaging>jar</packaging>
 
+    <!--11111111-->
     <dependencies>
         <!--mybatis核心包-->
         <dependency>
